@@ -1,5 +1,4 @@
 const states = require('../data/states.json');
-const send404 = require('../utils/send404');
 
 const checkStateMiddleware = (req, res, next) => {
 	const { state } = req.params;
